@@ -141,6 +141,7 @@ font-size: 25px;
 /* shop section */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color:#e2e7e6;
 }
@@ -164,4 +165,62 @@ font-size: 25px;
 }
 .box-content p{
     color: blue;
+}
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel-1{
+    background-color:#37475a;
+    color: white;
+   height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel-2{
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top:10px ;
+    color: #dddddd;
+}
+.foot-panel-3{
+    background-color: #222f3d;
+    color:white ;
+    border-top: 0.5px solid white;
+    height: 70px;
+    justify-content:center ;
+    align-items: center;
+}
+.logo{
+    background-image:url("https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+} 
+ .foot-panel-4{
+    background-color:#0f1111;
+    color: white;
+    height:100px ;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    
+    padding: 25px;
+}
+.copyright{
+    padding: 5px;
 }

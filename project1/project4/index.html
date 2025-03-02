@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booth's Algorithm Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Booth's Algorithm Simulator</h2>
+        <label>Multiplicand (Binary): </label>
+        <input type="text" id="multiplicand" placeholder="e.g. 1010">
+        <br>
+        <label>Multiplier (Binary): </label>
+        <input type="text" id="multiplier" placeholder="e.g. 1101">
+        <br>
+        <button onclick="performBoothsMultiplication()">Multiply</button>
+        <h3>Steps:</h3>
+        <div id="steps"></div>
+        <h3>Result: <span id="result"></span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
